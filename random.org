@@ -8,13 +8,6 @@
 * todo
   ** recreate headshot with circle
   ** vectorlog:
-    *** fixed-length index files, preallocated
-      **** index record: offset, length, hlc, crc - 36 bytes
-    *** tree (combined) hash in index footer
-    *** data-only data files, preallocate? what about large blobs?
-    *** this will not work without complete vector clocks, otherwise don't know how to delay delivery
-    *** can we use plausible vclocks for causality and full vectors for cursoring?
-      **** no
 
   ** chantrix rate limiter
 

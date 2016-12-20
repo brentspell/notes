@@ -1,0 +1,55 @@
+* goals
+  ** causal delivery
+  ** efficient anti-entropy
+  ** corruption tolerance
+  ** optional (quorum reads/writes)
+  ** geographic replication
+
+* fundamental rules
+  ** clients (publishers) must own/generate idempotency ids, in order to guarantee at least once publication
+  ** servers (subscribers) must enforce idempotency for exactly once delivery
+
+* fixed-length index files, preallocated
+  ** index record: offset, length, hlc, crc - 36 bytes
+* tree (combined) hash in index footer
+* data-only data files, preallocate? what about large blobs?
+* this will not work without complete vector clocks, otherwise don't know how to delay delivery
+* can we use plausible vclocks for causality and full vectors for cursoring?
+  ** no
+
+* consider plausible clocks
+  ** lose optimal anti-entropy
+  ** can delay messages arbitrarily
+  ** can't change size of vector clock without rehashing existing events
+
+* consider vnodes
+  ** vnode encapsulates all state for an entry in the vector clock
+  ** limits writer scalability to at most N (can be increased with reconfig)
+  ** passive read replicas can be added elastically with no coordination
+  ** reconfig requires consensus or taking whole system down
+  ** requires consensus or ops to ensure at most one process owns a vnode
+  ** consider consistent/rendezvous hashing
+  ** can use vclock compression to limit payload sizes (see efficient vector clocks paper)
+
+* disconnected clients (non-vnodes)
+  ** what is causal context vector stamp when multiple dependent events are logged disconnectedly?
+  ** need to update causal context in subsequent events as predecessors are given "real" vector stamps (possibly only for the p-th entry)
+
+* vectorlog assumes everybody gets everything (no built-in partitioning)
+  ** with archival + shared nothing, partitioning is unnecessary
+  ** as a message bus, partitioning is unnecessary
+
+* charron-bost on size of vector clocks
+  [[http://dl.acm.org/citation.cfm?id=117606]]
+* plausible logical clocks
+  [[https://www.google.com/webhp#q=plausible%20logical%20clocks]]
+* causality holy grail
+  [[https://www.vs.inf.ethz.ch/publ/papers/holygrail.pdf]]
+* efficient vector clocks (original)
+  [[https://www.cs.uic.edu/~ajayk/ext/IPL92.pdf]]
+* efficient vector clocks (improvement)
+  [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.416&rep=rep1&type=pdf]]
+* causal ordering simple way to implement it
+ [[https://pdfs.semanticscholar.org/6213/cdc2ca32404a312fffda3e5d95c45416d5b8.pdf]]
+* a new algorithm to implement causal ordering
+  [[https://pdfs.semanticscholar.org/d83d/5d43f7723a745bf43c700b08b799ffd2dd6b.pdf]]

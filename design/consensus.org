@@ -1,0 +1,16 @@
+
+* ousterhout on paxos, multi-paxos
+  [[https://www.youtube.com/watch?v=JEpsBg0AO6o]]
+* colyer on heard-of model
+  [[https://blog.acolyer.org/2016/02/09/the-heard-of-model/]]
+* introduction to heard-of model (charron-bost
+  [[https://pdfs.semanticscholar.org/a781/a4422f8bf4d12a50aba1b6ff107522f2b46d.pdf]]
+* heard-of model paper
+  [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.116.164&rep=rep1&type=pdf]]
+* formal verification using heard-of model for byzantine faults
+  [[https://members.loria.fr/SMerz/papers/sss2011.pdf]]
+* psync, heard-of model framework
+  [[https://blog.acolyer.org/2016/02/01/psync/]]
+
+* formal verification of multi-paxos
+  [[http://www3.cs.stonybrook.edu/~stoller/papers/fm2016.pdf]]
