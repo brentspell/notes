@@ -1,0 +1,86 @@
+#+DATE: 2016-12-30
+
+* Contents
+  * Gender of voices
+  * Personalities of voices
+  * Emotion
+  * Multiple voices
+  * Artifical humanity/Use of first person
+  * Synthetic vs. recorded
+  * Dyads, misrecognition and errors
+
+* General Themes
+  * Lots of experiments, excessively documented
+  * Human voice processing has evolved to be highly sophisticated
+  * The brain attempts to view every aspect of every utterance as meaningful
+  * Consistency is almost always better (gender, emotion, etc.)
+  * Similarity implies familiarity and is generally better (opposites attract is misleading)
+  * Socially inept interfaces suffer the same fate as inept individuals - innective, criticized, and shunned
+
+* Gender
+  * Gender is one of the first attributes identified upon contact
+  * Humans assign gender even to generated voices, expect gendered voices for gendered products
+  * Males prefer male voices, females prefer female voices
+  * Male voices are interpreted as more trustworthy, even by females
+  * Masculinity and feminity are not one-dimensional (similar to dominance/submission)
+  * Clarity of gender reduces confusion and cognitive burden
+
+* Personality, Race
+  * If gender is the most basic means of classifying, personality is richest
+  * Extroverts vs. introverts, likes attract
+  * Considered orthogonal to masculinity, feminity
+  * Challenge to consistency: huge amount of existing content (reviews, etc.)
+  * BMW car anecdote - chose "copilot" persona over kitt, chauffeur, friend, golf buddy, sidekick, back-seat driver/in-law
+  * Extroverts are more concerned with similarity than consistency, introverts are more concerned with consistency than similarity
+  * Accents are determined by location, not race
+  * Speech manifests cultural origins, faces/skin manifest biological origins
+
+* Emotion
+  * Challenge - emotion is a "state," not a "trait"
+  * Long-term emotions are called moods
+  * Temperament is tendency to exhibit particular moods with great frequency
+  * Primary emotions - fear, anger, sadness, joy, disgust
+  * Similarity and consistency again
+  * Systems should be slightly emotionally positive
+  * Inconsistency between verbal and vocal cues can cause behavioral/emotional problems in children
+  * Emotion of voice should match emotion of content
+  * Challenge - determining emition of a text (sentiment analysis?)
+  * Dimensions - valence (positive/negative), arousal, control
+  * Emotions can be contagious
+
+* Multiple Voices
+  * In general, avoid mixing recorded and synthetic voices, even though doing so seems sophisticated
+  * Distinctions - pitch range, volume, volume range, timbre
+  * Distinct voices are perceived as distinct identities
+  * Option - one voice as generalist, one voice as specialist
+    * Challenge - generalist can appear incompetent
+  * Multiple voices can be manipulative, since multiple adherents to a position can be more convincing
+
+* Artifical humanity/Use of first person
+  * People are oystercatchers - trigger easily based on artificial social cues
+  * Using first person implies a level of sophistication/humanity that most technologies cannot meet
+  * Recorded voices can use first person, synthetic voices should not
+  * People generally prefer recorded voices
+  * Synthetic speech is perceived as being more formal
+  * Avoiding first person can allow the system to deflect blame from itself
+
+* Synthetic vs. recorded
+  * Don't look the look if you can't talk the talk
+  * Synchrony between faces and voices is important
+  * Synthetic faces should be avoided, but characters like Lamb Chop are acceptable because they don't have voices any human would have
+  * Somatotype theory - 3 body/personality types (endomorph, ectomorphs, mesomorphs)
+  * See appendix on page 141
+  * Avoid mindless maximization (using advanced tech for its own sake)
+    * Attempt to keep all aspects in balance w.r.t. quality
+    * Don't be a show-off
+  * Humor is powerful - see notes on jokes (p. 154)
+  * TTCT (Torrance Tests of Creative Thinking)
+  * Area microphones are better than cramped, visible mics, limits feelings of being monitored, which affect creativity, divulgence, etc.
+
+* Dyads, Misrecognition and Errors
+  * A computer and its user form a dyad
+  * Self-serving bias - each member takes ownership of success, no responsibility of failure
+  * Modesty is believed to be true, can lead user to think partner is incompetent
+  * A better way is scapegoating, but difficult to attribute root cause to speech recognition problems
+  * Users will automatically mirror the interface - similar to how a listener will adapt to speed, volume, etc. of human conversant
+  * Three conversational maxims - quantity, relevance, clarity
