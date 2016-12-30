@@ -1,13 +1,13 @@
 * IP Camera
   [[https://www.amazon.com/gp/product/B01J5OMNBU/ref=oh_aui_detailpage_o01_s02?ie=UTF8&psc=1]]
-  ** rtsp://192.168.1.10:554/live/ch0
-     iP Camera Viewer 2 -> Export camera, then cat
-  ** http mpeg ts stream
+  * rtsp://192.168.1.10:554/live/ch0
+    iP Camera Viewer 2 -> Export camera, then cat
+  * http mpeg ts stream
      cvlc -vvv --http-reconnect rtsp://192.168.1.10:554/live/ch0 --sout "#standard{access=http,mux=ts,dst=:10420}"
-  ** http live stream (HLS)
-     cvlc -v -I dummy \
-        rtsp://192.168.1.10:554/live/ch0 \
-        ":sout=#std{access=livehttp{seglen=5,numsegs=3,delsegs=true,index=/Users/     brent/tmp/camera/stream0.m3u8,index-url=file:///Users/brent/tmp/camera/     stream0-########.ts}, \
-                    mux=ts{use-key-frames},\
-                    dst=/Users/brent/tmp/camera/stream0-########.ts}" \
-        vlc://quit
+  * http live stream (HLS)
+    cvlc -v -I dummy \
+       rtsp://192.168.1.10:554/live/ch0 \
+       ":sout=#std{access=livehttp{seglen=5,numsegs=3,delsegs=true,index=/Users/     brent/tmp/camera/stream0.m3u8,index-url=file:///Users/brent/tmp/camera/     stream0-########.ts}, \
+                   mux=ts{use-key-frames},\
+                   dst=/Users/brent/tmp/camera/stream0-########.ts}" \
+       vlc://quit

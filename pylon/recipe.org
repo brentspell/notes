@@ -1,27 +1,27 @@
 * tags
-  ** cuisine
-  ** primary ingredient
-  ** cooking method
-  ** meal (time of day)
-  ** author
-  ** user
-  ** duration (active + total)
+  * cuisine
+  * primary ingredient
+  * cooking method
+  * meal (time of day)
+  * author
+  * user
+  * duration (active + total)
 * ingredients
-  ** types
-  ** quantities
-  ** units
-  ** nutrition (derived?)
+  * types
+  * quantities
+  * units
+  * nutrition (derived?)
 * steps
-  ** milestones (better term)
-  ** image/video content
+  * milestones (better term)
+  * image/video content
 * techniques
 * revisions
 * comments
 * ratings
 
 * text
-  ** need to be able to generate from structured recipe for search
-  ** need to be able to format for print
+  * need to be able to generate from structured recipe for search
+  * need to be able to format for print
 
 [[https://arxiv.org/pdf/1312.1448.pdf]]
 [[http://www.ar.media.kyoto-u.ac.jp/publications/yamakata-CEA16.pdf]]
