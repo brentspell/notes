@@ -1,9 +1,9 @@
 * blog
-  ** chantrix, csp, and client-side middleware
-  ** backpressure inversion
-  ** causal delivery vs. causal consistency
-  ** interval tree monoid
-  ** consensus everywhere
+  * chantrix, csp, and client-side middleware
+  * backpressure inversion
+  * causal delivery vs. causal consistency
+  * interval tree monoid
+  * consensus everywhere
 
 * todo
   ** recreate headshot with circle
