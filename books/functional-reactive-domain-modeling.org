@@ -1,0 +1,31 @@
+#+DATE: todo
+
+* Contents
+  1. Introduction
+  2. Why scala
+  3. Designing functional domain models
+  4. Functional patterns for domain models
+  5. Modularization of domain models
+  6. Being reactive
+  7. Modeling with reactive streams
+  8. Reactive persistence and event sourcing
+  9. Testing your domain model
+  10. Summary
+
+* General themes
+  * Functional programming, purity in domain logic, explicit side effects
+  * Algebraic data types for safety and explicity with pattern matching
+  * Design for failure
+  * Nonblocking, background processing to minimize latency
+  * Effectful computations via monads, etc. instead of side effects
+
+* Introduction
+  * Basically explains concepts of functional programming
+  * Some naivetee in accounting model, why reactive programming is better
+  * Advantages of purity, although scala does not require it
+
+* Why scala
+  * Immutability, type system of scala, ADTs
+  * Advantages of combinators, "for" comprehensions
+  * ADTs are safer, but they also allow to write fewer tests
+  * Try as an abstraction for failure, Future as an abstraction for latency
