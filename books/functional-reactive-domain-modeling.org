@@ -29,3 +29,13 @@
   * Advantages of combinators, "for" comprehensions
   * ADTs are safer, but they also allow to write fewer tests
   * Try as an abstraction for failure, Future as an abstraction for latency
+
+* Designing functional domain models
+  * Algebras and interpreters
+  * Aggregates and lenses
+  * Repositories and the Reader monad
+
+* Functional patterns for domain models
+  * Functors, applicatives, monads, State monad, Kleisli arrow
+  * Not very clear on why this is better
+  * One positive - create type classes for each valid state, in order to make it impossible to create objects in invalid states
