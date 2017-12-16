@@ -1,29 +1,7 @@
-* blog
+* notes
   * chantrix, csp, and client-side middleware
   * backpressure inversion
   * causal delivery vs. causal consistency
   * interval tree monoid
   * consensus everywhere
-
-* todo
-  * recreate headshot with circle
-  * vectorlog:
-
-  * chantrix rate limiter
-
-  * http://danluu.com/programming-books/
-
-  * use quadratic cost for linear regression nn
-  * numpy polyfit
-  * decision trees have voting heuristic
-  * scale number training epochs proportionally to training set size when computing learning curves
-    * ditto for regularization parameter
-  * get more training data
-    * rotate MNIST images slightly
-  * use squashed gaussians as default weights (small variance parameter 1/Ninput)
-    * use standard normal for biases (or zeroes)
-
-  * unsupervised sentiment analysis
-  * lstm for generation?
-  * send link to arjun
-
+  * vectorlog

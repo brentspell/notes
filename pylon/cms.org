@@ -1,8 +1,0 @@
-* CMS
-  * entities/ontologies (nouns, relationships)
-  * design conversations (verbs) (get pain points from josh/noel)
-  * data sources (USDA food database)
-  * generic data model (hooks for conversation content, similar to aggregates)
-  * generic tagging
-  * version control
-  * debugging / canarying / publishing / AB testing
