@@ -1,5 +1,6 @@
 * bowline
 * hitching tie
 * taut line hitch/midshipman's hitch
-* weaver's knot
+* weaver's knot/sheet bend
 * chain hitch
+* slip knot
